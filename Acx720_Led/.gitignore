@@ -1,0 +1,18 @@
+# 构建输出 (由 fpga_project.yaml + FPGABuilder 驱动)
+build/
+*.log
+*.jou
+*.backup.log
+*.str
+
+# Vivado 项目文件
+*.xpr
+*.xml
+NA
+planAhead.*
+
+# 系统
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
