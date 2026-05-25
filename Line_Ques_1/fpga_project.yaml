@@ -1,0 +1,25 @@
+project:
+  name: Line_Ques_1
+  version: 1.0.0
+  description: 线性序列机 LED 亮0.25s 灭0.75s
+fpga:
+  vendor: xilinx
+  family: artix-7
+  part: xc7a35tfgg484-2
+  top_module: Top
+template: basic
+source:
+  hdl:
+  - path: src/hdl/*.v
+    language: verilog
+  constraints:
+  - path: src/constraints/*.xdc
+    type: xilinx
+build:
+  synthesis:
+    strategy: Vivado Synthesis Defaults
+  implementation:
+    options: {}
+  bitstream:
+    options:
+      bin_file: true

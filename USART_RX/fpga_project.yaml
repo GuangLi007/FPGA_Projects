@@ -1,0 +1,8 @@
+project:
+  name: USART_RX
+  version: 1.0.0
+  description: USART_RX FPGA工程
+fpga:
+  vendor: xilinx
+  part: xc7a35tfgg484-2
+template: basic

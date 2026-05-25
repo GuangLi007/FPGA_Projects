@@ -1,9 +1,15 @@
 .cache/
+*.cache/
 .hw/
+*.hw/
 .ip_user_files/
+*.ip_user_files/
 .runs/
+*.runs/
 .sim/
+*.sim/
 .gen/
+*.gen/
 **/utils_1/**
 **/ip/**
 *.jou
@@ -14,5 +20,9 @@ bit/
 build/
 __pycache__/
 *.pyc
+ip_repo/
+lib/
+.Xil/
+output/
 .DS_Store
 Thumbs.db

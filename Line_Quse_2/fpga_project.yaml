@@ -1,0 +1,8 @@
+project:
+  name: Line_Quse_2
+  version: 1.0.0
+  description: Line_Quse_2 FPGA工程
+fpga:
+  vendor: xilinx
+  part: xc7a35tfgg484-2
+template: basic

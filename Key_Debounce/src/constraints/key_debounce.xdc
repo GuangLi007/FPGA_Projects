@@ -1,0 +1,12 @@
+set_property PACKAGE_PIN Y18 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+create_clock -name clk -period 20.000 [get_ports clk]
+
+set_property PACKAGE_PIN F15 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
+
+set_property PACKAGE_PIN A20 [get_ports key_in]
+set_property IOSTANDARD LVCMOS33 [get_ports key_in]
+
+set_property PACKAGE_PIN M22 [get_ports led_out]
+set_property IOSTANDARD LVCMOS33 [get_ports led_out]

@@ -1,0 +1,25 @@
+project:
+  name: Key_Debounce
+  version: 1.0.0
+  description: 按键消抖三种方法设计与对比
+fpga:
+  vendor: xilinx
+  family: artix-7
+  part: xc7a35tfgg484-2
+  top_module: key_debounce_top
+template: basic
+source:
+  hdl:
+  - path: src/hdl/*.v
+    language: verilog
+  constraints:
+  - path: src/constraints/*.xdc
+    type: xilinx
+build:
+  synthesis:
+    strategy: Vivado Synthesis Defaults
+  implementation:
+    options: {}
+  bitstream:
+    options:
+      bin_file: true
