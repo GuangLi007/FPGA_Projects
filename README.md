@@ -43,6 +43,42 @@ ACX720 (XC7A35T) FPGA 学习项目合集。
 - `src/hdl/` — Verilog 源码
 - `src/constraints/` — 引脚约束 (.xdc)
 
+## 使用 FPGABuilder
+
+YAML 驱动项目可使用 [FPGABuilder](https://github.com/anomalyco/FPGABuilder) 工具链构建:
+
+```bash
+# 初始化新工程
+fpga-init
+
+# 或手动: FPGABuilder init <Name> --vendor xilinx --part xc7a35tfgg484-2 --template basic --path .
+
+# 完整构建 (综合+实现+比特流)
+FPGABuilder build
+
+# 仅综合 / 仅实现 / 仅比特流
+FPGABuilder synth
+FPGABuilder impl
+FPGABuilder bitstream
+```
+
+## 烧录 (JTAG)
+
+```bash
+vivado -mode batch << 'EOF'
+open_hw_manager
+connect_hw_server
+open_hw_target [lindex [get_hw_targets] 0]
+set dev [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {build/bitstreams/<top>_top.bit} $dev
+program_hw_devices $dev
+close_hw_target [lindex [get_hw_targets] 0]
+disconnect_hw_server
+close_hw_manager
+exit
+EOF
+```
+
 ## 对应笔记
 
 学习笔记见 [FPGA_Notes](https://github.com/GuangLi007/FPGA_Notes) 仓库。
