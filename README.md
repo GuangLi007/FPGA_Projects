@@ -21,6 +21,9 @@ ACX720 (XC7A35T) FPGA 学习项目合集。
 | 13 | [Key_Debounce](Key_Debounce) | 按键消抖 (连续/延时/状态机) | ✅ |
 | 14 | [Segment_Display](Segment_Display) | 数码管显示 (HC595) | ✅ |
 | 15 | [Segment_Display_1](Segment_Display_1) | 数码管显示 (HC595 + 段选) | ✅ |
+| 16 | [ADC](ADC) | ADC 驱动 (SPI 通信) | ✅ |
+| 17 | [RAM_Test](RAM_Test) | RAM IP 核测试 | ✅ |
+| 18 | [ROM_Test](ROM_Test) | ROM IP 核测试 / 正弦波 | ✅ |
 
 ## 开发环境
 
