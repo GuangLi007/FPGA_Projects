@@ -24,6 +24,7 @@ ACX720 (XC7A35T) FPGA 学习项目合集。
 | 16 | [ADC](ADC) | ADC 驱动 (SPI 通信) | ✅ |
 | 17 | [RAM_Test](RAM_Test) | RAM IP 核测试 | ✅ |
 | 18 | [ROM_Test](ROM_Test) | ROM IP 核测试 / 正弦波 | ✅ |
+| 19 | [EMIO_Key](EMIO_Key) | Zynq PS EMIO GPIO 按键控制 LED (Vivado + Vitis) | ✅ |
 
 ## 开发环境
 
