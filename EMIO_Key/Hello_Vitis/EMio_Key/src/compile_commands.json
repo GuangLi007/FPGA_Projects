@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/kl/My_Project/ZYNQ/Hello_Vitis/EMio_Key/build",
+  "command": "/home/kl/Xilinx_2025/2025.2/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc -isystem /home/kl/My_Project/ZYNQ/Hello_Vitis/EMIO_Key/export/EMIO_Key/sw/standalone_ps7_cortexa9_0/include -isystem /home/kl/Xilinx_2025/2025.2/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include -isystem /home/kl/Xilinx_2025/2025.2/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include-fixed -isystem /home/kl/Xilinx_2025/2025.2/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=/home/kl/My_Project/ZYNQ/Hello_Vitis/EMIO_Key/export/EMIO_Key/sw/standalone_ps7_cortexa9_0/Xilinx.spec -I/home/kl/My_Project/ZYNQ/Hello_Vitis/EMIO_Key/export/EMIO_Key/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles/EMio_Key.elf.dir/helloworld.c.obj -c /home/kl/My_Project/ZYNQ/Hello_Vitis/EMio_Key/src/helloworld.c",
+  "file": "/home/kl/My_Project/ZYNQ/Hello_Vitis/EMio_Key/src/helloworld.c"
+},
+{
+  "directory": "/home/kl/My_Project/ZYNQ/Hello_Vitis/EMio_Key/build",
+  "command": "/home/kl/Xilinx_2025/2025.2/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc -isystem /home/kl/My_Project/ZYNQ/Hello_Vitis/EMIO_Key/export/EMIO_Key/sw/standalone_ps7_cortexa9_0/include -isystem /home/kl/Xilinx_2025/2025.2/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include -isystem /home/kl/Xilinx_2025/2025.2/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include-fixed -isystem /home/kl/Xilinx_2025/2025.2/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=/home/kl/My_Project/ZYNQ/Hello_Vitis/EMIO_Key/export/EMIO_Key/sw/standalone_ps7_cortexa9_0/Xilinx.spec -I/home/kl/My_Project/ZYNQ/Hello_Vitis/EMIO_Key/export/EMIO_Key/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles/EMio_Key.elf.dir/platform.c.obj -c /home/kl/My_Project/ZYNQ/Hello_Vitis/EMio_Key/src/platform.c",
+  "file": "/home/kl/My_Project/ZYNQ/Hello_Vitis/EMio_Key/src/platform.c"
+}
+]
